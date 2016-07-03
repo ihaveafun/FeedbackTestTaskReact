@@ -16,6 +16,7 @@ class MessagesStore extends EventEmitter {
   static APPROVED_MESSAGE = 1;
   static REJECTED_MESSAGE = 2; */
 
+
   constructor() {
     super();
     this.messages = []; // Массив с сообщениями
